@@ -132,3 +132,14 @@ nav a {
     top: 50%;
 }
 
+.copy {
+    background-color: #DDB9A3;
+    margin: 5%;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+.copy p {
+    margin: 2%;
+}
+
