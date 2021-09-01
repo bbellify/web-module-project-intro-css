@@ -39,6 +39,7 @@ blockquote, q {
 
 /* end of reset */
 
+
 * {
     box-sizing:border-box;
     padding: 0;
@@ -59,7 +60,7 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 a {
@@ -67,12 +68,10 @@ a {
     text-decoration: none;
 }
 
-span {
-    font-weight: bold;
-}
-
 section {
     padding: 4% 0;
+    width: 90%;
+    margin: 0 auto; 
 }
 
 /* header section styles */
@@ -87,6 +86,7 @@ nav a {
     border-radius: 10px;
     text-align: center;
     color: white;
+    text-decoration: none;
 }
 
 .orange {
@@ -104,82 +104,93 @@ nav a {
     margin-right: 10%;
 }
 
-/* titles section style */
+/* title section style */
 
-.titles{
-    text-align:center;
+.title {
     position:relative;
 }
 .left, .right{
     display:inline-block;
 }
+
 .left{
     width:30%;
     margin-left:5%;
 }
+
 .left img{
     border-radius:50%;
 }
+
 .right{
     width:55%;
     margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 150px;
 }
-.right div{
-    position:absolute;
-    top:40%;
-}
+
 .titles h2 {
     margin: 1%;
 }
 
 /* pink copy section styles */
+
 .copy {
     background-color: #DDB9A3;
-    margin: 1% 5%;
-    padding: 0 2%;
     color: white;
+    margin: 1% 5%;
+    padding: 2%;
     text-align: center;
 }
 
-.copy p {
-    margin: 2%;
-}
-
-.copy div {
-    padding: 0;
-
-}
 /* icons section styles */
-.icon-copy {
+
+.info div {
+    width: 30%;
+    margin: 5% auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* my attempt - new icon section above replaced all this
+
+
+.info {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.icon-copy div {
+.info div {
     text-align: center;
     padding-bottom: 5%;
 }
 
-.icon-copy p {
+.info p {
     margin: 1% 30%;
 }
 
-.icon-copy img {
+.info img {
     max-width: 15%;
     height: auto;
-}
+
+} */
 
 /* footer image  */
-section.background-image {
+.background-image {
     margin: 0 auto;
     background-image: url("assets/footer_img.jpg");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top center;
+    width: 100%;
 }
 
-/* footer nav styles */
+/* footer nav */
 footer {
     background-color: #F9E7DC;
 }
