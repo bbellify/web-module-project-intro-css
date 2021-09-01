@@ -136,6 +136,7 @@ nav a {
 .copy {
     background-color: #DDB9A3;
     margin: 1% 5%;
+    padding: 0 2%;
     color: white;
     text-align: center;
 }
@@ -144,6 +145,10 @@ nav a {
     margin: 2%;
 }
 
+.copy div {
+    padding: 0;
+
+}
 /* icons section styles */
 .icon-copy {
     padding-top: 0;
