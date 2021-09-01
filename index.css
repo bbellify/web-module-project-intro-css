@@ -44,7 +44,6 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
 }
 /* General styles */
 html {
@@ -129,11 +128,14 @@ nav a {
     position:absolute;
     top:40%;
 }
+.titles h2 {
+    margin: 1%;
+}
 
+/* pink copy section styles */
 .copy {
     background-color: #DDB9A3;
     margin: 1% 5%;
-    padding: 0;
     color: white;
     text-align: center;
 }
@@ -142,6 +144,7 @@ nav a {
     margin: 2%;
 }
 
+/* icons section styles */
 .icon-copy {
     padding-top: 0;
     padding-bottom: 0;
@@ -161,6 +164,7 @@ nav a {
     height: auto;
 }
 
+/* footer image  */
 section.background-image {
     margin: 0 auto;
     background-image: url("assets/footer_img.jpg");
@@ -170,5 +174,9 @@ section.background-image {
     background-position: top;
 }
 
+/* footer nav styles */
+footer {
+    background-color: #F9E7DC;
+}
 
 
